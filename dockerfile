@@ -12,4 +12,6 @@ COPY scripts/ scripts/
 
 ENV PYTHONPATH=/app
 
+EXPOSE 3000
+
 CMD ["python3", "scripts/session_3/api.py"]

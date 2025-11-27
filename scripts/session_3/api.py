@@ -50,5 +50,5 @@ def calculate(request: CalculateRequest) -> CalculateResponse:
 
 
 if __name__ == "__main__":
-    port = os.getenv("HOST_PORT", 8080)
-    uvicorn.run("api:app", host="0.0.0.0", port=port, reload=True)
+    # port = os.getenv("HOST_PORT", 8080)
+    uvicorn.run("api:app", host="0.0.0.0", port=3000, reload=True)

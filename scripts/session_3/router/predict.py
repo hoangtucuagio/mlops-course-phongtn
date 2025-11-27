@@ -13,7 +13,7 @@ print(f"MLFLOW_TRACKING_URI: {MLFLOW_TRACKING_URI}")
 
 mlflow.set_tracking_uri(uri=MLFLOW_TRACKING_URI)
 
-model_name = "housing_prediction"
+model_name = "phongtn_housing_prediction_v1"
 model_version = "1"
 alias = "production"
 

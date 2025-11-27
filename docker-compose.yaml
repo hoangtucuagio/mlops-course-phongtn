@@ -106,7 +106,7 @@ services:
     container_name: our-app
     command: python3 scripts/session_3/api.py
     ports:
-      - "8080:8080"
+      - "3000:3000"
     depends_on:
       mlflow:
         condition: service_healthy
