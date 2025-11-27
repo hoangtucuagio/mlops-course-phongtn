@@ -3,7 +3,7 @@ name: Classroom Workflow
 on:
   push:
     paths:
-      - 'scripts/session_6/hello_world.txt'
+      - 'scripts/session_6/phongtn_test.txt'
   pull_request:
     paths:
       - 'scripts/session_6/pull_request_test.txt'
@@ -21,7 +21,7 @@ jobs:
       - name: Print latest content
         run: |
           if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
-            cat scripts/session_6/hello_world.txt
+            cat scripts/session_6/phongtn_test.txt
           elif [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
             cat scripts/session_6/pull_request_test.txt
           else
