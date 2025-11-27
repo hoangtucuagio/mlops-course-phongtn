@@ -2,7 +2,7 @@ import time
 
 import requests
 
-GRAFANA_URL = "http://localhost:3000"
+GRAFANA_URL = "http://localhost:3200"
 AUTH = ("admin", "admin")  # Default credentials
 HEADERS = {"Content-Type": "application/json"}
 
